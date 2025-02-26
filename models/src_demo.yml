@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: dbt_schema
+      description: Data from project dataset
+      database: dbt_demo
+      schema: dbt_schema
+      tables:
+          - name: employees
+            description: Data of employees
+          
