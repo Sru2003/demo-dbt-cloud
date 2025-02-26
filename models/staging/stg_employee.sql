@@ -1,1 +1,1 @@
-select * from {{source('dbt_schema','dbt_demo')}}
+select * from {{source('dbt_schema','employees')}}
