@@ -1,0 +1,1 @@
+select * from {{source('dbt_schema','dbt_demo')}}
